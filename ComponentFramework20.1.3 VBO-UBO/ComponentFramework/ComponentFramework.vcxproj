@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\GameDev\OpenGL\include;C:\GameDev\SDL\include;C:\GameDev\Vulkan\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\GameDev\OpenGL\include;C:\GameDev\SDL\include;C:\GameDev\Vulkan\include;C:\GameDev\others;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -79,6 +79,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Users\john0\Documents\Visual Studio 2019\Libraries\stb-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\GameDev\OpenGL\lib;C:\GameDev\SDL\lib;C:\GameDev\Vulkan\lib32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>

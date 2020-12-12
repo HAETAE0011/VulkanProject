@@ -12,7 +12,7 @@ union SDL_Event;
 class Scene0 : public Scene {
 private:
 	Renderer *renderer;
-	
+
 public:
 	explicit Scene0(Renderer* renderer_);
 	virtual ~Scene0();

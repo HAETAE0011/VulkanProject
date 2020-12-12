@@ -20,6 +20,15 @@ Scene0::Scene0(Renderer *renderer_):
 Scene0::~Scene0() {}
 
 bool Scene0::OnCreate() {
+
+
+	//if (ObjLoader::loadOBJ("meshes/viking_room.obj") == false) {
+	//	throw std::runtime_error("failed to find obj file");
+	//	return false;
+	//}
+
+	
+
 	if (ObjLoader::loadOBJ("meshes/Tetrahedron.obj") == false) {
 		throw std::runtime_error("failed to find obj file");
 	}
@@ -27,6 +36,12 @@ bool Scene0::OnCreate() {
 	switch (renderer->getRendererType()){
 	case RendererType::VULKAN:
 		
+
+
+
+
+
+
 		break;
 
 	case RendererType::OPENGL:
