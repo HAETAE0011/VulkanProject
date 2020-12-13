@@ -29,7 +29,7 @@ bool Scene0::OnCreate() {
 
 	
 
-	if (ObjLoader::loadOBJ("meshes/Tetrahedron.obj") == false) {
+	if (ObjLoader::loadOBJ("meshes/viking_room.obj") == false) {
 		throw std::runtime_error("failed to find obj file");
 	}
 
